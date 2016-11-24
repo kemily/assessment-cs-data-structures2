@@ -1,0 +1,56 @@
+Part 1: Discussion Questions
+
+Recursion
+
+1. In your own words, what is recursion?
+
+Answer:
+
+Recursion is when a funcion calls itself. There is an analogy to recursion - are
+nesting dolls. Function call is a nesting doll, so every time when function calls 
+itself - an inner doll is revealed. As recursive function complete, all the 
+doll go back together.
+
+Recursion and loops are very similar. Any loop can be written istead of the recursion,
+and vice versa. The best way how to solve a problem depends on the problem itself. 
+
+2. Why is it necessary to have a base case?
+
+Answer:
+
+Base cases are important so recursive function "knows" when to stop. Very often they are
+"degenerate cases". Otherwise recursive function keep recursing and eventually bring 
+RuntimeError. So, it's very important to provide a base case/"degenerate case" in 
+recurtion.
+
+
+/////////////////////////////////////////////////////////////////////////////
+
+Graphs
+
+1. What is a graph?
+
+Answer:
+
+Graph is like a tree, but it can contain loops, and relationships between nodes can be 
+non-directed as well as directed. Graphs are more like a general version of trees, but 
+they don't have hierarchy. They are often used to model relationships between things.
+
+2. How is a graph different from a tree?
+
+Answer:
+
+Trees are specific type of graph, they are directed and acyclic graphs. But graphs can be
+cyclic and acyclic, directed and undirected . All trees are graphs, but not all the graphs 
+are trees. Trees have hierarchy, but graphs don't. Also graphs don't have leafs, and root, 
+like trees do. 
+
+
+3. Give an example of something that would be good to model with a graph.
+
+Answer:
+
+A Facebook friends conection is a good example of a graph. Nodes are representing
+people, and edges are representing the connections between the people as friends. 
+
+
